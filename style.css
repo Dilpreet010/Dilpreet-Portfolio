@@ -358,7 +358,7 @@ a{
     align-items: start;
     width: 60%;
     gap: 1rem;
-    margin-left: -0.5rem;
+    margin-left: -1rem;
   }
   .faded-text{
     margin-top: 4rem;
@@ -831,7 +831,7 @@ a{
   }
   .skill-fade-text{
     font-size:7em;
-    bottom:-16.5%;
+    bottom:-15.8%;
     right:25%;
   }
 
@@ -919,12 +919,12 @@ a{
     margin-left: 1rem;
   }
   .btn-contactus{
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
   .contact-btn{
     margin-left: 3rem;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
  
 }  
