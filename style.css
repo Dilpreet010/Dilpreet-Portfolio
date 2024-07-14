@@ -405,6 +405,9 @@ a{
     top: 40%;
     left: 25%;
   }
+  .hyperlink div a{
+    font-size: 20px;
+  }
   .hero-section{
     margin-left: 0;
   }
@@ -426,7 +429,7 @@ a{
   }
   .faded-text{
     margin-top: 4rem;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     bottom: -12.9%;
     left: 1%;
 }
@@ -923,8 +926,8 @@ a{
     margin-bottom: 5rem;
   }
   .skill-fade-text{
-    font-size:7em;
-    bottom:-15.8%;
+    font-size:6em;
+    bottom:-15.9%;
     right:25%;
   }
 
@@ -1115,7 +1118,7 @@ footer{
     margin-left: -14rem;
   }
   .footer-faded-text{
-    font-size:3.5em;
+    font-size:3.2em;
   }
   .icon-wrapper{
     gap:1.8rem;
