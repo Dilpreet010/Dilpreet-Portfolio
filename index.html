@@ -20,11 +20,24 @@
                     <div><a href="#skills">Skills</a></div>
                     <div><a href="#contactme">Contact</a></div>
                 </div>
+                <div class="hamburg">
+                  <i onclick="openNav()" class="fa-solid fa-bars"></i>
+                </div>
+                <div class="hamburg-content">
+                  <div class="hamburg-wrapper">
+                    <div><i class="fa-solid fa-xmark" onclick="closeNav()"></i></div>
+                    <div class="hyperlink">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact</a></div>
+                  </div> 
+                  </div>
+                </div>
             </div>
             <div class="hero-section">
                 <div class="faded-text absolute">Dilpreet Kaur</div>
                 <div class="hero-section-left">
-                    <div class="hero-section-heading">Hi! Dilpreet Kaur</div>
+                    <div class="hero-section-heading heading">Hi! Dilpreet Kaur</div>
                     <div class="hero-section-sub-heading hero-section-heading">
                         I am <span class="role"></span>
                     </div>
@@ -275,11 +288,10 @@
               </div>
 
               <div class="icon-wrapper">
-                <i class="fa-brands fa-linkedin icon"></i>
-                <i class="fa-brands fa-github icon"></i>
-                <i class="fa-brands fa-twitter icon"></i>
-                <i class="fa-brands fa-instagram icon"></i>
-                <i class="fa-regular fa-envelope icon"></i>
+                <a href="https://www.linkedin.com/in/dilpreet-kaur-3023a7220/"><i class="fa-brands fa-linkedin icon"></i></a>
+                <a href="https://github.com/Dilpreet010"><i class="fa-brands fa-github icon"></i></a>
+                <a href="https://www.instagram.com/preet_dl84/"><i class="fa-brands fa-instagram icon"></i></a>
+                <a href="mailto:dilpreetkaur7075@gmail.com"><i class="fa-regular fa-envelope icon"></i></a>
               </div>
 
             </div>
@@ -302,6 +314,18 @@
       backSpeed: 80,
       backDelay: 1000,
     });
+    const slider = document.querySelector(".hamburg-wrapper");
+
+    const openNav = () => {
+        console.log("Modal is Open");
+        slider.style.width="180px";
+        slider.style.visibility="visible";
+    };
+
+    const closeNav = () => {
+        slider.style.width="0px";
+        slider.style.visibility="hidden";
+    };
   </script>
 </body>
 </html>
