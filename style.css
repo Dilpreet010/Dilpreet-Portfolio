@@ -92,6 +92,7 @@ a{
   top: 2rem;
   right: 2rem;
   color: white;
+  overflow-x: hidden;
 }
 .hyperlink div a {
   padding: 30px 20px;
